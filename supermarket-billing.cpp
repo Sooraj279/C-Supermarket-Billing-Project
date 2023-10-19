@@ -26,19 +26,19 @@ class shopping{
 
 void shopping :: menu() // :: is the  scope resolution operator used to access members of a class.
 {
-	m:
-	int choice;
-	string email;
-	string password;
+    m:
+    int choice;
+    string email;
+    string password;
 	
-	cout<<"\t\t\t\t______________________________________\n";
-	cout<<"\t\t\t\t                                      \n";
-	cout<<"\t\t\t\t        Supermarket Main Menu         \n";
-	cout<<"\t\t\t\t                                      \n";
-	cout<<"\t\t\t\t______________________________________\n";
-	cout<<"\t\t\t\t                                      \n";
-	cout<<"\t\t\t\t|   1) Administrator   |\n";
-	cout<<"\t\t\t\t|                      |\n";
+    cout<<"\t\t\t\t______________________________________\n";
+    cout<<"\t\t\t\t                                      \n";
+    cout<<"\t\t\t\t        Supermarket Main Menu         \n";
+    cout<<"\t\t\t\t                                      \n";
+    cout<<"\t\t\t\t______________________________________\n";
+    cout<<"\t\t\t\t                                      \n";
+    cout<<"\t\t\t\t|   1) Administrator   |\n";
+    cout<<"\t\t\t\t|                      |\n";
     cout<<"\t\t\t\t|   2) Buyer           |\n";
     cout<<"\t\t\t\t|                      |\n";
     cout<<"\t\t\t\t|   3) Exit            |\n";
@@ -406,8 +406,7 @@ void shopping::receipt()
 int main()
 {
 	shopping s;
-	s.menu();
-	
+	s.menu();	
 }
 
 
